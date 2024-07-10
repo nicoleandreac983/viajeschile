@@ -2,10 +2,27 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "Lora", serif;
+    background-color: #155597;
 }
 
 .logo{
     height: 2.5rem;
-
+}
+.navbar-brand .logo {
+    width: 40px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
 }
 
+.carousel-inner {
+    max-height: 750px;
+}
+
+.carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.textoquienes{
+    color: white;
+    text-align: center;
+}
