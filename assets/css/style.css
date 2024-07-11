@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "Lora", serif;
-    background-color: #155597;
+    background-color: #000;
 }
 
 .logo{
@@ -54,10 +54,26 @@ body{
     
 }
 
+.botones{
+    background-color: #00c993;
+}
+
 .textodestacados{
     color: white;
     text-align: center;
     font-weight: 400;
+}
+
+.fotoscard{
+    width: 285px;
+    height: 240px;
+}
+
+@media (max-width:768px){
+    .destacados .card{
+        margin-left: 35px;
+    }
+
 }
 
 
