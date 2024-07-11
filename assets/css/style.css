@@ -69,11 +69,17 @@ body{
     height: 240px;
 }
 
+/* para que se pegen a la izquierda cartas en dispositivos moviles */
 @media (max-width:768px){
     .destacados .card{
         margin-left: 35px;
     }
 
+}
+
+/* sacarle la linea de abajo subrayado a los link */
+a{
+    text-decoration: none;
 }
 
 

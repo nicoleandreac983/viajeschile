@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="#" href="page">Inicio</a>
+                        <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#quienes">Quienes somos</a>
@@ -105,12 +105,17 @@
                         my master's cup meow and cat dog hate mouse eat string barf pillow no baths hate everything so
                         throw down all the stuff in the kitchen.
                     </p>
+                    <button type="button" class="btn botones"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Soy una montaña!">
+                        <i class="fa-solid fa-mountain"></i>
+                      </button>
 
-                    <button type="button" class="btn botones"><i class="fa-solid fa-mountain"></i></button>
                 </div>
 
                 <div class="col-lg-4 mb-4">
-                    <button type="button" class="btn botones"><i class="fa-solid fa-route"></i></button>
+                    <button type="button" class="btn botones"  data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="La ruta">
+                        <i class="fa-solid fa-route"></i>
+                      </button>
+                    
                     <p class="parrafoicons">
                         Trip owner up in kitchen i want food burrow under covers. Eat owner's food making bread on the
                         bathrobe. Bite nose of your human this is the day , sit on human for suddenly go on wild-eyed
@@ -186,23 +191,33 @@
                     placeholder="Escribe aqui tu mensaje"></textarea>
             </div>
             <div class="text-start">
-                <button type="button" class="btn botones text-light px-4">Enviar</button>
+                <button type="button" id="enviarCorreo" class="btn botones text-light px-4">Enviar</button>
             </div>
         </form>
 
     </section>
 
-    <footer id="contacto" class="footer botones p-3 text-light">
+    <footer id="contacto" class="footer botones p-3 ">
         <div class="container">
             <div class="row">
                 <div class="col-6 d-flex align-items-center">
-                    <h5 class="ms-5">Viajes chile</h5>
+                    <h5 class="ms-5 text-light">Viajes chile</h5>
                 </div>
                 <div class="col-6 d-flex justify-content-end align-items-center">
-                    <i class="fa-brands fa-github me-4"></i>
-                    <i class="fa-brands fa-linkedin me-4"></i>
-                    <i class="fa-brands fa-twitter me-4"></i>
-                    <i class="fa-brands fa-facebook"></i>
+                    <a href="https://github.com" target="_blank">
+                        <i class="fa-brands fa-github me-4 text-light"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                        <i class="fa-brands fa-linkedin me-4 text-light"></i>
+                    </a>
+                    
+                    <a href="https://x.com/?lang=es" target="_blank">
+                        <i class="fa-brands fa-twitter me-4 text-light"></i>    
+                    </a>
+                    
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook text-light"></i>
+                    </a>
                 </div>
             </div>
         </div>
