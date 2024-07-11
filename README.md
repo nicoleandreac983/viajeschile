@@ -10,4 +10,4 @@
 - GitHub
 
 **Direccion a la pagina** 
-  [Ir a la pagina de Vue](https://nicoleandreac983.github.io/viajeschile/)
+  [Ir a la pagina del proyecto](https://nicoleandreac983.github.io/viajeschile/)
